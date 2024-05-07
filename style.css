@@ -1,0 +1,22 @@
+.body {
+    background-color: green;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-container .col-md-6 {
+    flex: 1;
+}
+
+.about-container img {
+    float: right;
+}
